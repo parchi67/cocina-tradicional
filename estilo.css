@@ -1,0 +1,138 @@
+#container{
+  
+
+    width: 300px;
+    background:aliceblue;
+    font: 20px arial;
+    margin: auto;
+    margin-top: 150px;
+    border: 2px solid blue;
+    padding: 10px;
+    box-shadow: 10px 10px;
+}
+.container{
+    background: url(imagenes/images.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+    align-items: center;
+}
+#contenedor{
+    
+    width: 300px;
+    background:aliceblue;
+    font: 20px arial;
+    margin: auto;
+    margin-top: 150px;
+    border: 2px solid blue;
+    padding: 10px;
+    box-shadow: 10px 10px;
+}
+.contenedor{
+    background: url(imagenes/90.gif);
+    background-repeat: no-repeat;
+        background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.btn1{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 4px;
+    border: 2px solid #d3dd4b;
+    color: #fff;
+    text-decoration: none;
+    background: #237aa6;
+}
+.btn2{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 4px;
+    border: 2px solid #4b0d0d;
+    color: #fff;
+    text-decoration: none;
+    background: #1f1f2c;
+      
+}
+.btn3{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 4px;
+    border: 2px solid #42511d;
+    color: #fff;
+    text-decoration: none;
+    background: #b2b2c0;   
+}
+.btn-light{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 4px;
+    border: 2px solid #3b2979;
+    color: rgb(239, 247, 241);
+    text-decoration: none;
+    background: #e91e63;
+}
+.h1{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 4px;
+    border: 2px solid #7455e6;
+    color: rgb(225, 134, 54);
+    text-decoration: none;
+    background: #39c2c9;
+   
+}
+.head {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #532c95;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    }
+    
+    
+  
+
+
+
+.navbar {
+ 
+        display: flex;
+        margin-right: 10px;
+    
+}
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #7113a8;
+}
+.pagina{
+
+        margin-left: 30px;
+  
+}
+    .pagina a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+    
+}
